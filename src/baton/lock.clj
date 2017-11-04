@@ -4,7 +4,7 @@
   offers a way to do atomic compare-and-set requests."
   (:require
     [clojure.future :refer [inst? uuid?]]
-    [clojure.spec :as s])
+    [clojure.spec.alpha :as s])
   (:import
     java.time.Instant
     java.util.UUID))
