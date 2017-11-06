@@ -1,5 +1,5 @@
 (ns baton.manager.local
-  "In-memory lock manager. Local lock managers may be constructed usin the
+  "In-memory lock manager. Local lock managers may be constructed using the
   `local:-` URI form.
 
   This store is most suitable for testing and other situations which call for a
